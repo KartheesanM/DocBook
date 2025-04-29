@@ -1,0 +1,98 @@
+.dentist-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dentist-list-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.dentist-list-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.dentist-list-description {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* Center dentist cards horizontally with wrapping */
+.dentist-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Individual card styling */
+.dentist-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.dentist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.dentist-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.dentist-card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.dentist-card-category {
+  font-size: 1rem;
+  color: #3498db;
+  margin-bottom: 1.2rem;
+}
+
+.dentist-card-button {
+  padding: 10px 24px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dentist-card-button:hover {
+  background-color: #187bcd;
+}
+
+.dentist-list-footer {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #7f8c8d;
+  text-align: center;
+}

@@ -1,0 +1,86 @@
+.appointment-container {
+  background: #f2f9ff; /* Light blue background */
+  padding: 30px;
+  max-width: 700px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+.appointment-title {
+  color: #0d6efd; /* Primary blue heading */
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.doctor-card {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.doctor-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.doctor-info h2 {
+  margin: 0;
+  color: #1d1d1d;
+}
+
+.doctor-info p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+.appointment-form {
+  background: #eaf4ff; /* Light blue form */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.appointment-form h3 {
+  margin-bottom: 10px;
+  color: #0d6efd;
+}
+
+.appointment-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+}
+
+.confirm-btn {
+  width: 100%;
+  background: #0d6efd; /* Primary blue button */
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background: #0b5ed7;
+}

@@ -1,0 +1,30 @@
+.dashboard-container {
+    text-align: center;
+    padding: 40px;
+    background: #f2f9ff;
+    min-height: 100vh;
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-card {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    background-color: #e0efff;
+  }
+  
